@@ -11,6 +11,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
+    exibirTextoNaTela('h2', '"A coragem não é ausência do medo; é a persistência apesar do medo.." (Desconhecido)');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
 }
 
